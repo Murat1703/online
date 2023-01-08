@@ -1,0 +1,30 @@
+@media (max-width: 900px){
+    .main-menu{
+        display: none;
+    }
+    .menu-burger{
+        display: block;
+    }
+    .personal-account{
+        margin-left: -40px;
+    }
+    .top-inner-content{
+        flex-wrap: wrap-reverse;
+    }
+    .cards-content{
+        grid-template-columns: auto;
+    }
+}
+@media (max-width: 768px){
+    .main-information-img img{
+        width: 100%;
+    }
+    .top-inner-content{
+        padding: 40px 0;
+    }
+}
+@media (max-width: 500px){
+    .lang-switcher{
+        display: none;
+    }
+}
